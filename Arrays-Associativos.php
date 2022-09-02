@@ -1,5 +1,6 @@
 <?php
 
+//  Associação de arrays
     $contas = [
 
         123456 => [
@@ -17,6 +18,7 @@
 
     ];
 
+//  Método alternativo de explorar os elementos de um array.
     foreach ($contas as $cpf => $conta) {
 
         echo "$cpf $conta[titular] $conta[saldo]".PHP_EOL;

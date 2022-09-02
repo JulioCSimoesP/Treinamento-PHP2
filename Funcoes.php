@@ -21,6 +21,7 @@
 
     ];
 
+//  Exemplo de subrotina.
     function exibeMensagem(string $mensagem)
     {
 
@@ -28,6 +29,7 @@
 
     }
 
+//  Exemplos de funções.
     function saca(array $conta, float $valorASacar): array
     {
 
@@ -64,6 +66,7 @@
 
     }
 
+//  Utilização de funções para alterar valores de variáveis fora de seu escopo.
     $contas[123456] = saca($contas[123456], 500);
     $contas[456873] = deposita($contas[456873], 2000);
 
