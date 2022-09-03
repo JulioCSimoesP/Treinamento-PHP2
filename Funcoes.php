@@ -58,7 +58,7 @@
         } else {
 
             $conta['saldo'] += $valorASacar;
-            echo exibeMensagem("Deposito realizado com sucesso. Seu saldo atual é de $conta[saldo]");
+            echo exibeMensagem("Deposito realizado com sucesso. Seu saldo atual é de {$conta['saldo']}");
 
         }
 
